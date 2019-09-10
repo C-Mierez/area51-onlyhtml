@@ -22,6 +22,8 @@ body{
     background-image: url("../images/area51-entrance5.jpg");
     background-size: cover;
     background-position: center;
+    top: 6em;
+      height: 55em;
   }
   #mainTransBox{
     margin: 5% 0% 5% 5%;
@@ -35,6 +37,7 @@ body{
   #mainBanner{
     background-image: url("../images/area51-entrance5.jpg");
     background-size: right;
+    top: 6em;
   }
   .transparentBox{
     margin: 2.5em;
@@ -45,8 +48,6 @@ body{
 }
 #mainBanner{
   position: relative;
-  top: 6em;
-  height: 55em;
   background-color: #283747;
   background-repeat: no-repeat;
   /* TODO Temporalmente hasta tener una imagen buena*/
@@ -59,7 +60,7 @@ body{
   display: flex;
   vertical-align: bottom;
   align-items: center;
-  height: 6em;
+  height: 10%;
   box-shadow: 0 0 10px 0;
 }
 #mainHeader nav a{
