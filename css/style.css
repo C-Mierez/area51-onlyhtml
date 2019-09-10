@@ -176,6 +176,7 @@ body{
   font-size: 4em;
   text-align: center;
   padding: 0.3em;
+  color: #0F1012;
 }
 .transparentBox h2{
   font-family: "Nunito";
@@ -242,6 +243,13 @@ body{
   color: #DA0311;
   font-family: "Roboto Slab";
   font-size: 4em;
+  text-align: center;
+  padding: 0.3em;
+}
+#whereSection h2{
+  color: #0F1012;
+  font-family: "Roboto Slab";
+  font-size: 3.5em;
   text-align: center;
   padding: 0.3em;
 }
