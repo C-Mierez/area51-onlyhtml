@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+
+  /* Descomentar la siguiente expresión para ver los borders: */
+  /* border: 1px red solid;*/
+
+  box-sizing: border-box;
+} /* Valores default para la pagina. Se sobreescriben después si es necesario*/
+
+body{
+  font-family: "Roboto Slab";
+  font-size: 1em;
+  background: #EEF0F1; /* Color gris de fondo */
+} /* Más valores por default*/
+
+@media (min-width: 800px) { /* Pantalla grande */
+  #mainBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/area51-entrance5.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+  #mainTransBox{
+    margin: 5% 0% 5% 5%;
+    flex-basis: 36%;
+  }
+  .transparentBox{
+    margin: 0em 6em;
+  }
+}
+@media (max-width: 800px) { /* Pantalla pequeña */
+  #mainBanner{
+    background-image: url("../images/area51-entrance.jpg");
+    background-size: auto;
+  }
+  .transparentBox{
+    margin: 2.5em;
+  }
+  #mainTransBox{
+    margin: 3em 1.5em;
+  }
+}
+#mainBanner{
+
+  position: relative;
+  top: 10em;
+  background-color: #283747;
+  background-repeat: no-repeat;
+  bbackground-attachment: fixed;
+  /* TODO Temporalmente hasta tener una imagen buena*/
+  padding: 0.1em 0.1em;
+}
+
+.transparentBox{
+  background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
+  border-radius: 0.7em;
+  padding: 1.6em 1em
+
+  overflow-wrap: break-word; /* Para que el texto se pueda romper cuando la pantalla es muy pequeña */
+
+}
+.transparentBox h1{
+  font-family: "Roboto Slab";
+  font-size: 4em;
+  text-align: center;
+  padding: 0.3em;
+}
+.transparentBox h2{
+  font-family: "Nunito";
+  color: #DA0311;
+  font-size: 3em;
+  text-align: center;
+  padding: 0 0.3em 0.6em 0.3em;
+}
+.transparentBox p{
+  font-family: "Nunito";
+  font-size: 2em;
+  padding: 0px 2em;
+  text-align: left  ;
+} /* TODO El texto justifcado se glitchea por algun motivo */
+.transparentBox p + p{
+  text-align: left;
+}
+.transparentBox .buttonPlacer{
+  text-align: center;
+}
+.transparentBox .button{
+  border: none;
+  border-radius: 0.7em;
+
+  background-color: #DA0311;
+
+  padding: 0.5em;
+  margin: 2em 0;
+  height: 3em;
+  width: 50%;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: #F9FAFA;
+}
+.transparentBox .button:hover{
+
+  background-color: white;
+  color: red;
+}
+
+
+
+.sticky{
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+#mainHeader{
+  z-index: 1;
+  background-color: #494848;
+  display: flex; 
+  justify-content: flex-end;
+  vertical-align: bottom;
+  height: 10em;
+}
+#mainHeader nav{
+  align-self: flex-end;
+  
+}
+
+#mainHeader nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 1em
+}
+#mainHeader nav a:hover{
+  color:red;
+}
+
+
+#mainFooter{
+  padding-top: 200px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  background-color: #333;
+}
