@@ -18,7 +18,7 @@ section{
 }
 .main-banner{
     background-position: right;
-    background-image: url("../images/area51-entrance5.jpg");
+    background-image: url("images/area51-entrance5.jpg");
     background-repeat: no-repeat;
     background-color: green;
     height: 100em;
@@ -70,7 +70,3 @@ section{
 }
 .what-sidesection{
 }
-
-
-
-
