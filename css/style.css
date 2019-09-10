@@ -217,18 +217,28 @@ body{
   background-color: white;
   color: red;
 }
-
+#whereSection .transparentBox {
+  margin: 0 10%;
+  align-self: center;
+}
+#whereSection #imgBox img{
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 0;
+  width: 30%;
+}
 
 .container{
   display: flex;
   width: auto;
 }
 
-#whatSection{
+#whatSection, #whereSection{
   position: relative;
   top: 6em;
 }
-#whatSection h1{
+
+#whatSection h1, #whereSection h1{
   color: #DA0311;
   font-family: "Roboto Slab";
   font-size: 4em;
