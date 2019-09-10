@@ -12,6 +12,9 @@ body{
   font-family: "Roboto Slab";
   font-size: 1em;
   background: #EEF0F1; /* Color gris de fondo */
+  background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 } /* Más valores por default*/
 
 @media (min-width: 1400px) { /* Pantalla grande */
@@ -105,9 +108,50 @@ body{
 }
 
 #mainFooter{
-  padding-top: 200px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  top: 6em;
   background-color: #343a40;
+  display: block;
+  height: 4em;
 }
+
+#mainFooter .container{
+  align-items: center;
+  padding: 0 15%;
+  justify-content: space-around;
+  height: 100%;
+}
+#mainFooter p{
+  font-family: "Roboto Slab";
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 0px 2em;
+  text-align: left  ;
+}
+#mainFooter .button a{
+  font-family: "Nunito";
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  position: relative;
+}
+#mainFooter a:hover{
+  color: #DA0311;
+  background-color: #ffffff;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #DA0311;
+  border-radius: 0.7em;
+}
+#mainFooter .button{
+  border-radius: 0;
+  border-bottom: 1px #ffffff solid;
+}
+
 
 .transparentBox{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
@@ -143,9 +187,6 @@ body{
   text-align: center;
 }
 .transparentBox .button{
-  border: none;
-  border-radius: 0.7em;
-
   background-color: #DA0311;
 
   padding: 0.5em;
@@ -157,6 +198,10 @@ body{
   font-size: 20px;
   color: #F9FAFA;
 }
+.button{
+  border: none;
+  border-radius: 0.7em;
+}
 .transparentBox .button:hover{
 
   background-color: white;
@@ -164,7 +209,7 @@ body{
 }
 
 
-.container, .container2{
+.container{
   display: flex;
   width: auto;
 }
