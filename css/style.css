@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("../images/area51-entrance5.jpg");
+    background-image: url("images/area51-entrance5.jpg");
     background-size: cover;
     background-position: top;
   }
@@ -33,7 +33,7 @@ body{
 }
 @media (max-width: 800px) { /* Pantalla pequeña */
   #mainBanner{
-    background-image: url("../images/area51-entrance.jpg");
+    background-image: url("images/area51-entrance.jpg");
     background-size: auto;
   }
   .transparentBox{
@@ -118,14 +118,14 @@ body{
 #mainHeader{
   z-index: 1;
   background-color: #494848;
-  display: flex; 
+  display: flex;
   justify-content: flex-end;
   vertical-align: bottom;
   height: 10em;
 }
 #mainHeader nav{
   align-self: flex-end;
-  
+
 }
 
 #mainHeader nav a{
