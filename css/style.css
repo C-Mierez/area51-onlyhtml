@@ -33,7 +33,7 @@ body{
 }
 @media (max-width: 800px) { /* Pantalla pequeña */
   #mainBanner{
-    background-image: url("images/area51-entrance.jpg");
+    background-image: url("images/area51-entrance");
     background-size: auto;
   }
   .transparentBox{
