@@ -74,6 +74,10 @@ body{
 }
 #mainHeader nav a:hover{
   color: #DA0311;
+  border: 2px #DA0311 solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
 }
 #mainHeader .container{
   width: 70%;
