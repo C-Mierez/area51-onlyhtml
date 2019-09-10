@@ -34,6 +34,15 @@ body{
   .transparentBox{
     margin: 0em 6em;
   }
+  #mainFooter{
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    top: 6em;
+    background-color: #343a40;
+    display: block;
+    height: 4em;
+  }
 }
 @media (min-width:0px) { /* Pantalla pequeña */
   #mainBanner{
@@ -45,6 +54,15 @@ body{
   }
   #mainTransBox{
     margin: 3em 1.5em;
+  }
+  #mainFooter{
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    top: 6em;
+    background-color: #343a40;
+    display: block;
+    height: 6em;
   }
 }
 #mainBanner{
@@ -107,15 +125,7 @@ body{
     left: 1em;
 }
 
-#mainFooter{
-  z-index: 1;
-  width: 100%;
-  position: relative;
-  top: 6em;
-  background-color: #343a40;
-  display: block;
-  height: 4em;
-}
+
 
 #mainFooter .container{
   align-items: center;
@@ -126,7 +136,7 @@ body{
 #mainFooter p{
   font-family: "Roboto Slab";
   color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 0px 2em;
   text-align: left  ;
 }
