@@ -49,7 +49,7 @@ body{
   top: 10em;
   background-color: #283747;
   background-repeat: no-repeat;
-  bbackground-attachment: fixed;
+  background-attachment: fixed;
   /* TODO Temporalmente hasta tener una imagen buena*/
   padding: 0.1em 0.1em;
 }
