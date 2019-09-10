@@ -19,7 +19,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("../images/area51-entrance5.jpg");
     background-size: cover;
     background-position: center;
     top: 6em;
@@ -46,6 +45,7 @@ body{
   }
 }
 #mainBanner{
+  background-image: url("../images/area51-entrance5.jpg");
   position: relative;
   background-color: #283747;
   background-repeat: no-repeat;
