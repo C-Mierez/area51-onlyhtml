@@ -42,3 +42,8 @@ carouselSlide.addEventListener('transitionend', ()=>{ // Evento que se dispara c
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   }
 });
+
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}

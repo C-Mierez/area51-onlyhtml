@@ -34,6 +34,9 @@ body{
   .transparentBox{
     margin: 0em 6em;
   }
+  #main-form .transparentBox + .transparentBox{
+    margin: 1em 25%;
+  }
   #mainFooter{
     z-index: 1;
     width: 100%;
@@ -316,4 +319,93 @@ body{
 
 .carouselContainer .button{
   background: none;
+}
+
+#main-form{
+  position: relative;
+  top: 6em;
+}
+#main-form h1{
+  color: #DA0311;
+  font-family: "Roboto Slab";
+  font-size: 6em;
+  text-align: center;
+  padding: 0.3em;
+}
+#main-form .transparentBox{
+  padding: 1em 0;
+}
+
+.form-style-8{
+	font-family: 'Nunito', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px 'Maven Pro', sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"],
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px;
+	-webkit-box-shadow: inset 0px 1px 0px 0px;
+	box-shadow: inset 0px 1px 0px 0px;
+	background-color: #DA0311;
+
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+	font-size: 16px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {background-color:#34CACA;
+  background-color: #ffffff;
+  border: 2px solid #DA0311;
 }
